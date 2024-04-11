@@ -11,6 +11,7 @@ import IMG10 from "../../assets/php_blog.png";
 import IMG11 from "../../assets/snakeGame.png";
 import IMG12 from "../../assets/hangman.png";
 import IMG13 from "../../assets/nextjs.png";
+import IMG14 from "../../assets/numberWord.png";
 
 export const myProjectsData = [
   {
@@ -33,6 +34,20 @@ export const myProjectsData = [
     path: IMG13,
     githubUrl: "https://github.com/chingu-voyages/v48-tier3-team-21",
     liveUrl: "https://digging-into-dinosaurs.vercel.app/",
+  },
+  {
+    name: "Sweet Shop",
+    technology: ["HTML", "CSS ", "JS", "React"],
+    path: IMG7,
+    githubUrl: "https://github.com/shivam24161/online_sweet_shop",
+    liveUrl: "https://onlinesweetsbyshivam.netlify.app/",
+  },
+  {
+    name: "Number to word convertor",
+    technology: ["HTML", "CSS ", "JS", "React"],
+    path: IMG14,
+    githubUrl: "https://github.com/shivam24161/numberToWord",
+    liveUrl: "https://numbertoword.netlify.app/",
   },
   {
     name: "Accessibility",
@@ -74,13 +89,6 @@ export const myProjectsData = [
     technology: ["HTML", "CSS ", "JS", "React"],
     path: IMG6,
     githubUrl: "",
-    liveUrl: "",
-  },
-  {
-    name: "Sweet Shop",
-    technology: ["HTML", "CSS ", "JS", "React"],
-    path: IMG7,
-    githubUrl: "https://github.com/shivam24161/online_sweet_shop",
     liveUrl: "",
   },
   {
