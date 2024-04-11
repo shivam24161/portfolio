@@ -8,8 +8,32 @@ import IMG7 from "../../assets/sweet_shop.png";
 import IMG8 from "../../assets/toy_shop.png";
 import IMG9 from "../../assets/php_store.png";
 import IMG10 from "../../assets/php_blog.png";
+import IMG11 from "../../assets/snakeGame.png";
+import IMG12 from "../../assets/hangman.png";
+import IMG13 from "../../assets/nextjs.png";
 
 export const myProjectsData = [
+  {
+    name: "Snake Game",
+    technology: ["HTML", "CSS ", "JS ", " React"],
+    path: IMG11,
+    githubUrl: "https://github.com/shivam24161/snake_game",
+    liveUrl: "https://snakegamebyshivam.netlify.app/",
+  },
+  {
+    name: "Hangman Game",
+    technology: ["HTML", "CSS ", "JS ", " React"],
+    path: IMG12,
+    githubUrl: "https://github.com/shivam24161/hangman_game",
+    liveUrl: "https://hangmanbyshivam.netlify.app/",
+  },
+  {
+    name: "Digging Into Dinosaurs",
+    technology: ["HTML", "CSS ", "JS ","Tailwind css", "Next Js"],
+    path: IMG13,
+    githubUrl: "https://github.com/chingu-voyages/v48-tier3-team-21",
+    liveUrl: "https://digging-into-dinosaurs.vercel.app/",
+  },
   {
     name: "Accessibility",
     technology: ["HTML", "CSS ", "JS ", " React"],
@@ -56,7 +80,7 @@ export const myProjectsData = [
     name: "Sweet Shop",
     technology: ["HTML", "CSS ", "JS", "React"],
     path: IMG7,
-    githubUrl: "",
+    githubUrl: "https://github.com/shivam24161/online_sweet_shop",
     liveUrl: "",
   },
   {
@@ -67,17 +91,17 @@ export const myProjectsData = [
     liveUrl: "",
   },
   {
-    name: "Php Store",
+    name: "ecommerce Store",
     technology: ["HTML", "CSS", "JS", "Php", "MySql"],
     path: IMG9,
-    githubUrl: "",
+    githubUrl: "https://github.com/shivam24161/php_ecommerce",
     liveUrl: "",
   },
   {
     name: "Php Blog",
     technology: ["HTML", "CSS", "JS", "Php", "MySql"],
     path: IMG10,
-    githubUrl: "",
+    githubUrl: "https://github.com/shivam24161/blog_using_php",
     liveUrl: "",
   },
 ];
