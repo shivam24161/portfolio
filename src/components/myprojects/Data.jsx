@@ -12,6 +12,11 @@ import IMG11 from "../../assets/snakeGame.png";
 import IMG12 from "../../assets/hangman.png";
 import IMG13 from "../../assets/nextjs.png";
 import IMG14 from "../../assets/numberWord.png";
+import IMG15 from "../../assets/quiz1.png";
+import IMG16 from "../../assets/library.png";
+import IMG17 from "../../assets/todo.png";
+import IMG18 from "../../assets/notes.png";
+import IMG19 from "../../assets/online-shop.png";
 
 export const myProjectsData = [
   {
@@ -30,10 +35,31 @@ export const myProjectsData = [
   },
   {
     name: "Digging Into Dinosaurs",
-    technology: ["HTML", "CSS ", "JS ","Tailwind css", "Next Js"],
+    technology: ["HTML", "CSS ", "JS ", "Tailwind", "Next Js"],
     path: IMG13,
     githubUrl: "https://github.com/chingu-voyages/v48-tier3-team-21",
     liveUrl: "https://digging-into-dinosaurs.vercel.app/",
+  },
+  {
+    name: "Online library",
+    technology: ["HTML", "CSS ", "JS", "React"],
+    path: IMG16,
+    githubUrl: "https://github.com/shivam24161/online_library",
+    liveUrl: "https://onlinelibrarybyshivam.netlify.app/",
+  },
+  {
+    name: "Online Store",
+    technology: ["HTML", "CSS ", "JS", "React"],
+    path: IMG19,
+    githubUrl: "https://github.com/shivam24161/shopping_cart",
+    liveUrl: "https://onlinestorebyshivam.netlify.app//",
+  },
+  {
+    name: "Quiz App",
+    technology: ["HTML", "CSS ", "JS", "React"],
+    path: IMG15,
+    githubUrl: "https://github.com/shivam24161/react-quiz-app",
+    liveUrl: "https://quizbyshivam.netlify.app/",
   },
   {
     name: "Sweet Shop",
@@ -41,6 +67,20 @@ export const myProjectsData = [
     path: IMG7,
     githubUrl: "https://github.com/shivam24161/online_sweet_shop",
     liveUrl: "https://onlinesweetsbyshivam.netlify.app/",
+  },
+  {
+    name: "Todo List App",
+    technology: ["HTML", "CSS ", "JS", "React"],
+    path: IMG17,
+    githubUrl: "https://github.com/shivam24161/todo_app",
+    liveUrl: "https://todolistbyshivam.netlify.app/",
+  },
+  {
+    name: "Notes App",
+    technology: ["HTML", "CSS ", "JS", "React"],
+    path: IMG18,
+    githubUrl: "https://github.com/shivam24161/notes_app",
+    liveUrl: "https://notesbyshivam.netlify.app/",
   },
   {
     name: "Number to word convertor",
@@ -60,8 +100,8 @@ export const myProjectsData = [
     name: "Shopping Cart",
     technology: ["HTML", "CSS ", "JS", "React"],
     path: IMG2,
-    githubUrl: "",
-    liveUrl: "",
+    githubUrl: "https://github.com/shivam24161/online_shop",
+    liveUrl: "https://onlineshopbyshivam.netlify.app/",
   },
   {
     name: "Blogger",
@@ -81,21 +121,21 @@ export const myProjectsData = [
     name: "Food Delivery",
     technology: ["HTML", "CSS ", "JS", "React"],
     path: IMG5,
-    githubUrl: "",
+    githubUrl: "https://github.com/shivam24161/online_shop",
     liveUrl: "",
   },
   {
     name: "Fruits Delivery",
     technology: ["HTML", "CSS ", "JS", "React"],
     path: IMG6,
-    githubUrl: "",
+    githubUrl: "https://github.com/shivam24161/food_vegetable_store",
     liveUrl: "",
   },
   {
     name: "Toy Shop",
     technology: ["HTML", "CSS ", "JS", "React"],
     path: IMG8,
-    githubUrl: "",
+    githubUrl: "https://github.com/shivam24161/online_toy_shop",
     liveUrl: "",
   },
   {
